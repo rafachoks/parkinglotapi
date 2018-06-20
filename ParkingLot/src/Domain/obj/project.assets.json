@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\src\\3 - Domain\\3 - Domain.csproj",
-      "projectName": "3 - Domain",
-      "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\src\\3 - Domain\\3 - Domain.csproj",
+      "projectUniqueName": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\src\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\src\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\src\\3 - Domain\\obj\\",
+      "outputPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,0 +1,11 @@
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\bin\Debug\netcoreapp2.0\1 - Service.deps.json
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\bin\Debug\netcoreapp2.0\1 - Service.runtimeconfig.json
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\bin\Debug\netcoreapp2.0\1 - Service.runtimeconfig.dev.json
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\bin\Debug\netcoreapp2.0\1 - Service.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\bin\Debug\netcoreapp2.0\1 - Service.pdb
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\obj\Debug\netcoreapp2.0\1 - Service.csprojAssemblyReference.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\obj\Debug\netcoreapp2.0\1 - Service.csproj.CoreCompileInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\obj\Debug\netcoreapp2.0\1 - Service.AssemblyInfoInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\obj\Debug\netcoreapp2.0\1 - Service.AssemblyInfo.cs
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\obj\Debug\netcoreapp2.0\1 - Service.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\src\1 - Service\obj\Debug\netcoreapp2.0\1 - Service.pdb
