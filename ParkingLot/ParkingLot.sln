@@ -17,17 +17,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Data", "05 - Data", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - CrossCutting", "06 - CrossCutting", "{FFBA34BC-76E9-47F5-8703-526E0EE46DB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkinglot.Domain", "Parkinglot.Domain\Parkinglot.Domain.csproj", "{4AF6B59D-DFB4-4C4C-8973-F05C25F3D062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parkinglot.Domain", "Parkinglot.Domain\Parkinglot.Domain.csproj", "{4AF6B59D-DFB4-4C4C-8973-F05C25F3D062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkinglot.Infra", "Parkinglot.Infra\Parkinglot.Infra.csproj", "{AB5BD09C-1721-4B01-87B1-12526606DF2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parkinglot.Infra", "Parkinglot.Infra\Parkinglot.Infra.csproj", "{AB5BD09C-1721-4B01-87B1-12526606DF2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkinglot.Data", "Parkinglot.Data\Parkinglot.Data.csproj", "{5319325A-0818-4D1C-9C01-A1715FABDC8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parkinglot.Data", "Parkinglot.Data\Parkinglot.Data.csproj", "{5319325A-0818-4D1C-9C01-A1715FABDC8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkinglot.Crosscutting", "Parkinglot.Crosscutting\Parkinglot.Crosscutting.csproj", "{2EE73AD2-D55D-48C4-952D-597B5DFD1A26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parkinglot.Crosscutting", "Parkinglot.Crosscutting\Parkinglot.Crosscutting.csproj", "{2EE73AD2-D55D-48C4-952D-597B5DFD1A26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkinglot.Application", "Parkinglot.Application\Parkinglot.Application.csproj", "{733B9F78-1CA8-4F40-A6CF-5B70FCA3A524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parkinglot.Application", "Parkinglot.Application\Parkinglot.Application.csproj", "{733B9F78-1CA8-4F40-A6CF-5B70FCA3A524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkinglot.Api", "Parkinglot.Api\Parkinglot.Api.csproj", "{6D27B603-E4B9-4B6D-BC2B-4BB59D849692}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parkinglot.Api", "Parkinglot.Api\Parkinglot.Api.csproj", "{6D27B603-E4B9-4B6D-BC2B-4BB59D849692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkinglot.Application.Model", "Parkinglot.Application.Model\Parkinglot.Application.Model.csproj", "{C6C655E3-8EB7-44C5-9208-C37B88896A68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{6D27B603-E4B9-4B6D-BC2B-4BB59D849692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D27B603-E4B9-4B6D-BC2B-4BB59D849692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D27B603-E4B9-4B6D-BC2B-4BB59D849692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C655E3-8EB7-44C5-9208-C37B88896A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C655E3-8EB7-44C5-9208-C37B88896A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C655E3-8EB7-44C5-9208-C37B88896A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C655E3-8EB7-44C5-9208-C37B88896A68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{2EE73AD2-D55D-48C4-952D-597B5DFD1A26} = {FFBA34BC-76E9-47F5-8703-526E0EE46DB6}
 		{733B9F78-1CA8-4F40-A6CF-5B70FCA3A524} = {92B1DD9D-B337-4CF3-ADDC-7AAAB5675C04}
 		{6D27B603-E4B9-4B6D-BC2B-4BB59D849692} = {3C7B3D3D-B46D-4ECC-9547-A38B17A25C56}
+		{C6C655E3-8EB7-44C5-9208-C37B88896A68} = {92B1DD9D-B337-4CF3-ADDC-7AAAB5675C04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6927FCD7-6B5C-4229-8EB6-97BDEED13098}

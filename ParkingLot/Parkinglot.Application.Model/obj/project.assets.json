@@ -25,26 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Parkinglot.Crosscutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Parkinglot.Crosscutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Parkinglot.Crosscutting.dll": {}
-        }
-      },
-      "Parkinglot.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Parkinglot.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Parkinglot.Domain.dll": {}
-        }
       }
     }
   },
@@ -189,23 +169,11 @@
         "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Parkinglot.Crosscutting/1.0.0": {
-      "type": "project",
-      "path": "../Parkinglot.Crosscutting/Parkinglot.Crosscutting.csproj",
-      "msbuildProject": "../Parkinglot.Crosscutting/Parkinglot.Crosscutting.csproj"
-    },
-    "Parkinglot.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Parkinglot.Domain/Parkinglot.Domain.csproj",
-      "msbuildProject": "../Parkinglot.Domain/Parkinglot.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.1",
-      "Parkinglot.Crosscutting >= 1.0.0",
-      "Parkinglot.Domain >= 1.0.0"
+      "NETStandard.Library >= 2.0.1"
     ]
   },
   "packageFolders": {
@@ -215,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Data\\Parkinglot.Data.csproj",
-      "projectName": "Parkinglot.Data",
-      "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Data\\Parkinglot.Data.csproj",
+      "projectUniqueName": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Application.Model\\Parkinglot.Application.Model.csproj",
+      "projectName": "Parkinglot.Application.Model",
+      "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Application.Model\\Parkinglot.Application.Model.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Data\\obj\\",
+      "outputPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Application.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -237,14 +205,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Crosscutting\\Parkinglot.Crosscutting.csproj": {
-              "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Crosscutting\\Parkinglot.Crosscutting.csproj"
-            },
-            "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Domain\\Parkinglot.Domain.csproj": {
-              "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Domain\\Parkinglot.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
