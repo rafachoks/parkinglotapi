@@ -1,0 +1,9 @@
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\bin\Debug\netstandard2.0\Parkinglot.Crosscutting.deps.json
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\bin\Debug\netstandard2.0\Parkinglot.Crosscutting.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\bin\Debug\netstandard2.0\Parkinglot.Crosscutting.pdb
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\obj\Debug\netstandard2.0\Parkinglot.Crosscutting.csprojAssemblyReference.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\obj\Debug\netstandard2.0\Parkinglot.Crosscutting.csproj.CoreCompileInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\obj\Debug\netstandard2.0\Parkinglot.Crosscutting.AssemblyInfoInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\obj\Debug\netstandard2.0\Parkinglot.Crosscutting.AssemblyInfo.cs
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\obj\Debug\netstandard2.0\Parkinglot.Crosscutting.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Crosscutting\obj\Debug\netstandard2.0\Parkinglot.Crosscutting.pdb

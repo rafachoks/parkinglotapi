@@ -1,0 +1,9 @@
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\bin\Debug\netstandard2.0\Parkinglot.Infra.deps.json
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\bin\Debug\netstandard2.0\Parkinglot.Infra.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\bin\Debug\netstandard2.0\Parkinglot.Infra.pdb
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\obj\Debug\netstandard2.0\Parkinglot.Infra.csprojAssemblyReference.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\obj\Debug\netstandard2.0\Parkinglot.Infra.csproj.CoreCompileInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\obj\Debug\netstandard2.0\Parkinglot.Infra.AssemblyInfoInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\obj\Debug\netstandard2.0\Parkinglot.Infra.AssemblyInfo.cs
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\obj\Debug\netstandard2.0\Parkinglot.Infra.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Infra\obj\Debug\netstandard2.0\Parkinglot.Infra.pdb

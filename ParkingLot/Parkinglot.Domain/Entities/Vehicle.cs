@@ -9,6 +9,10 @@ namespace Parkinglot.Domain.Entities
     {
         public int Id { get; set; }
 
+        public string Name { get; set; }
+
+        public string Model { get; set; }
+
         public VehicleType Type { get; set; }
 
         public string Factory { get; set; }

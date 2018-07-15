@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "AutoMapper/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/AutoMapper.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4585,7 +4597,7 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
-      "System.ValueTuple/4.4.0": {
+      "System.ValueTuple/4.5.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -4746,10 +4758,93 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "Parkinglot.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Parkinglot.Application.Model": "1.0.0",
+          "Parkinglot.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Parkinglot.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parkinglot.Application.dll": {}
+        }
+      },
+      "Parkinglot.Application.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Parkinglot.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Parkinglot.Application.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parkinglot.Application.Model.dll": {}
+        }
+      },
+      "Parkinglot.Crosscutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Parkinglot.Crosscutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parkinglot.Crosscutting.dll": {}
+        }
+      },
+      "Parkinglot.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Parkinglot.Crosscutting": "1.0.0",
+          "Parkinglot.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Parkinglot.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parkinglot.Data.dll": {}
+        }
+      },
+      "Parkinglot.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Parkinglot.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parkinglot.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AutoMapper/7.0.1": {
+      "sha512": "6xHbhsW09sWjjYuE1sqhYn25PQzB6UEUVPME5uhlaIz2NR2+L3+FGbVxvknJKug1BLp6VTLxDb5RcGXKMm0ieQ==",
+      "type": "package",
+      "path": "automapper/7.0.1",
+      "files": [
+        "automapper.7.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.pdb",
+        "lib/net45/AutoMapper.xml",
+        "lib/netcoreapp2.0/AutoMapper.dll",
+        "lib/netcoreapp2.0/AutoMapper.pdb",
+        "lib/netcoreapp2.0/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.pdb",
+        "lib/netstandard1.3/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -12271,11 +12366,12 @@
         "system.threading.timer.nuspec"
       ]
     },
-    "System.ValueTuple/4.4.0": {
-      "sha512": "BahUww/+mdP4ARCAh2RQhQTg13wYLVrBb9SYVgW8ZlrwjraGCXHGjo0oIiUfZ34LUZkMMR+RAzR7dEY4S1HeQQ==",
+    "System.ValueTuple/4.5.0": {
+      "sha512": "xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
       "type": "package",
-      "path": "system.valuetuple/4.4.0",
+      "path": "system.valuetuple/4.5.0",
       "files": [
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -12290,6 +12386,7 @@
         "lib/netstandard2.0/_._",
         "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
         "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
@@ -12297,18 +12394,16 @@
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
         "ref/net461/System.ValueTuple.dll",
-        "ref/net461/System.ValueTuple.xml",
         "ref/net47/System.ValueTuple.dll",
-        "ref/net47/System.ValueTuple.xml",
         "ref/netcoreapp2.0/_._",
         "ref/netstandard2.0/_._",
         "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.4.5.0.nupkg.sha512",
         "system.valuetuple.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -12653,12 +12748,39 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "Parkinglot.Application/1.0.0": {
+      "type": "project",
+      "path": "../Parkinglot.Application/Parkinglot.Application.csproj",
+      "msbuildProject": "../Parkinglot.Application/Parkinglot.Application.csproj"
+    },
+    "Parkinglot.Application.Model/1.0.0": {
+      "type": "project",
+      "path": "../Parkinglot.Application.Model/Parkinglot.Application.Model.csproj",
+      "msbuildProject": "../Parkinglot.Application.Model/Parkinglot.Application.Model.csproj"
+    },
+    "Parkinglot.Crosscutting/1.0.0": {
+      "type": "project",
+      "path": "../Parkinglot.Crosscutting/Parkinglot.Crosscutting.csproj",
+      "msbuildProject": "../Parkinglot.Crosscutting/Parkinglot.Crosscutting.csproj"
+    },
+    "Parkinglot.Data/1.0.0": {
+      "type": "project",
+      "path": "../Parkinglot.Data/Parkinglot.Data.csproj",
+      "msbuildProject": "../Parkinglot.Data/Parkinglot.Data.csproj"
+    },
+    "Parkinglot.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Parkinglot.Domain/Parkinglot.Domain.csproj",
+      "msbuildProject": "../Parkinglot.Domain/Parkinglot.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.8",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "Parkinglot.Application >= 1.0.0",
+      "Parkinglot.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12690,7 +12812,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Application\\Parkinglot.Application.csproj": {
+              "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Application\\Parkinglot.Application.csproj"
+            },
+            "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Data\\Parkinglot.Data.csproj": {
+              "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Data\\Parkinglot.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

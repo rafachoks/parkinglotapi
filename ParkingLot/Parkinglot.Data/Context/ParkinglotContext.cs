@@ -14,6 +14,10 @@ namespace Parkinglot.Data.Context
 
         public DbSet<Vehicle> Vehicles { get; set; }
 
+        public DbSet<Car> Cars { get; set; }
+
+        public DbSet<Motocycle> Motocycle { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new VehicleConfiguration());

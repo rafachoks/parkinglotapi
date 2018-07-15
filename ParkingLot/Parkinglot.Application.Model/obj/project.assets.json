@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Parkinglot.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Parkinglot.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parkinglot.Domain.dll": {}
+        }
       }
     }
   },
@@ -169,11 +179,17 @@
         "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Parkinglot.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Parkinglot.Domain/Parkinglot.Domain.csproj",
+      "msbuildProject": "../Parkinglot.Domain/Parkinglot.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.1"
+      "NETStandard.Library >= 2.0.1",
+      "Parkinglot.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -205,7 +221,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Domain\\Parkinglot.Domain.csproj": {
+              "projectPath": "C:\\Projects\\NET\\parkinglotapi\\ParkingLot\\Parkinglot.Domain\\Parkinglot.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

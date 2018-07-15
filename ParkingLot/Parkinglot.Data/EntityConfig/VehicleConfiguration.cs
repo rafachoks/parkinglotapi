@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Parkinglot.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Parkinglot.Data.EntityConfig
 {
@@ -12,6 +9,8 @@ namespace Parkinglot.Data.EntityConfig
         public void Configure(EntityTypeBuilder<Vehicle> builder)
         {
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Name).HasMaxLength(80).IsRequired();
+            builder.Property(x => x.Model).HasMaxLength(40).IsRequired();
             builder.Property(x => x.Color).HasMaxLength(40).IsRequired();
             builder.Property(x => x.Factory).HasMaxLength(120).IsRequired();
             builder.Property(x => x.Type).IsRequired();

@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Parkinglot.Domain.Interface
 {
     public interface IRepositoryBase<TEntity> where TEntity : class
     {
-        void Add(TEntity obj);
-        TEntity GetById(int id);
-        IEnumerable<TEntity> GetAll();
-        void Update(TEntity obj);
-        void Remove(TEntity obj);
+        Task Add(TEntity obj);
+        Task<TEntity> GetById(int id);
+        Task<IEnumerable<TEntity>> GetAll();
+        Task Update(TEntity obj);
+        Task Remove(TEntity obj);
         void Dispose();
     }
 }

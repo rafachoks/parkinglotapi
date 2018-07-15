@@ -1,0 +1,14 @@
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\bin\Debug\netstandard2.0\Parkinglot.Application.deps.json
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\bin\Debug\netstandard2.0\Parkinglot.Application.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\bin\Debug\netstandard2.0\Parkinglot.Application.pdb
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\bin\Debug\netstandard2.0\Parkinglot.Application.Model.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\bin\Debug\netstandard2.0\Parkinglot.Domain.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\bin\Debug\netstandard2.0\Parkinglot.Application.Model.pdb
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\bin\Debug\netstandard2.0\Parkinglot.Domain.pdb
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\obj\Debug\netstandard2.0\Parkinglot.Application.csprojAssemblyReference.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\obj\Debug\netstandard2.0\Parkinglot.Application.csproj.CoreCompileInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\obj\Debug\netstandard2.0\Parkinglot.Application.AssemblyInfoInputs.cache
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\obj\Debug\netstandard2.0\Parkinglot.Application.AssemblyInfo.cs
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\obj\Debug\netstandard2.0\Parkinglot.Application.csproj.CopyComplete
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\obj\Debug\netstandard2.0\Parkinglot.Application.dll
+C:\Projects\NET\parkinglotapi\ParkingLot\Parkinglot.Application\obj\Debug\netstandard2.0\Parkinglot.Application.pdb
